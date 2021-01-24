@@ -71,9 +71,9 @@ console.log(result);
 var TotalCost =  hotelCost(15);
  console.log(TotalCost);
 
- //megeFriend
+ //megaFriend
 
- function megeFriend (){
+ function megaFriend (){
      var friendName = ["Whedul Islam Abir","Abir Hasan","Afia Ibnat","Jhankar Mahbub"];
      var longName = friendName[0];
      for(var i=0; i<friendName.length; i++){
@@ -84,6 +84,6 @@ var TotalCost =  hotelCost(15);
          return longName;
      }
  }
- var theLongName = megeFriend();
+ var theLongName = megaFriend();
  console.log(theLongName);
  
