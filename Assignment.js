@@ -73,7 +73,7 @@ var TotalCost =  hotelCost(15);
 
  //megeFriend
 
- function friendName (){
+ function megeFriend (){
      var friendName = ["Whedul Islam Abir","Abir Hasan","Afia Ibnat","Jhankar Mahbub"];
      var longName = friendName[0];
      for(var i=0; i<friendName.length; i++){
@@ -84,6 +84,6 @@ var TotalCost =  hotelCost(15);
          return longName;
      }
  }
- var theLongName = friendName();
+ var theLongName = megeFriend();
  console.log(theLongName);
  
